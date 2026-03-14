@@ -1,5 +1,8 @@
 body {background-image: url('bakery.png');
 		background-size: cover;
+  		background-position: center;
+	    background-repeat: no-repeat;
+
 }
 
 
@@ -58,7 +61,6 @@ button {
 	background-color: hotpink;
 	font-family: 'Comic Sans MS', cursive;
 	margin: 10px auto;
-
 }
 
 div {
@@ -66,3 +68,11 @@ div {
 	align-items: center;
 	padding: 20px;
 }
+
+iframe {
+	 width: 100%;
+  max-width: 300px;
+}
+
+
+
