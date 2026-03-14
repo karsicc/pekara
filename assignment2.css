@@ -1,0 +1,68 @@
+body {background-image: url('bakery.png');
+		background-size: cover;
+}
+
+
+
+header {
+	background-color: hotpink;
+	margin-bottom: 0px;
+	margin-top: 50px;
+	padding: 60px;
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+	align-items: center;
+	display: flex;
+}
+h1  {
+	text-shadow: 5px 5px black;
+}
+.ul {background: lightpink;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	padding: 0px;
+
+	border-bottom-left-radius: 80px;
+	border-bottom-right-radius: 80px;
+	text-align: center;
+	
+}
+p {font-family: 'Comic Sans MS', cursive;
+}
+.navigacija {display: inline;
+	font-family: 'Comic Sans MS', cursive;
+}
+
+a {color: hotpink;
+	font-size: 15px}
+hr {margin-top: 5px;
+	background-color: hotpink;
+	height: 2px
+}
+h2 {margin-bottom: 5px}
+
+table {
+	font-family: 'Comic Sans MS', cursive;
+}
+footer {background-color: hotpink;
+		border-radius: 70px; 
+		padding: 30px;
+	}
+
+form {
+	font-family: 'Comic Sans MS', cursive;
+}
+
+button {
+	display: block;
+	background-color: hotpink;
+	font-family: 'Comic Sans MS', cursive;
+	margin: 10px auto;
+
+}
+
+div {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
