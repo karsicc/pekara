@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>mama pek</title>
+	<link rel="stylesheet" href="assignment2.css">	
+</head>
+<body>
+	<header>
+		<h1 style="color: lightpink; font-family: 'Comic Sans MS', cursive; font-size: 50px ; text-align: center; "><i>Mamina Pekara</i></h1>
+		<img src="muffin.png" width="100" height="auto" align="right">
+
+</header>
+<nav>
+	<ul class="ul">
+		<li class="navigacija"><a href="#I">Info</a></li>
+		<li class="navigacija"><a href="#U">Usluge</a></li>
+		<li class="navigacija"><a href="#M">Meni</a></li>
+		<li class="navigacija"><a href="#P">Poruči</a></li>
+		<li class="navigacija"><a href="#K">Kontakt</a></li>
+	</ul>
+</nav>
+<main>
+	<h2 style="font-family: 'Comic Sans MS', cursive;">Info</h2>
+	<hr>
+	<p id="I" style="font-family: 'Comic Sans MS', cursive;">    Dobrodošli u našu pekaru! Ovu malu porodičnu pekaru vodi mama Arsić, 
+    a svaki proizvod nastaje po domaćim receptima, ispunjenim ljubavlju i pažnjom. 
+    Svaki hleb, pecivo i kolač pravimo sa željom da u vaš dom donesete miris i ukus domaće tradicije.</p>
+
+	<h2 style="font-family: 'Comic Sans MS', cursive;">Usluge</h2>
+	<hr>
+	<p id="U" style="font-family: 'Comic Sans MS', cursive;">Naša ponuda:</p>
+		<ul>
+			<li style="font-family: 'Comic Sans MS', cursive;">Dostava na vašu adresu</li>
+			<li style="font-family: 'Comic Sans MS', cursive;">Poklon pakovanja i dostava na adresu vasih najmilijih</li>
+			<li style="font-family: 'Comic Sans MS', cursive;">Unapred poručivanje hleba, peciva, kolača i torti</li>
+		</ul> 
+
+		<p id="M" style="font-family: 'Comic Sans MS', cursive;">Meni</p>
+		<hr>
+		<table width="100%">
+			<thead>
+				<tr>
+					<th style="text-align: left;">Proizvod</th>
+					<th style="text-align: left;">Količina</th>
+					<th style="text-align: left;">Cena</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Domaći hleb</td>
+					<td>1 komad</td>
+					<td>120 RSD</td>	
+				</tr>	
+				<tr>
+					<td>Kroasan čokolada</td>
+					<td>1 komad</td>
+					<td>160 RSD</td>	
+				</tr>
+				<tr>
+					<td>Čaie</td>
+					<td>1 komad</td>
+					<td>160 RSD</td>	
+				</tr>
+				<tr>
+					<td>Tri leće</td>
+					<td>1 komad</td>
+					<td>200 RSD</td>	
+				</tr>
+			</body>
+		</table>
+
+		<h2 id="P" style="font-family: 'Comic Sans MS', cursive;">Porudžbina</h2>
+		<hr>
+
+		<form>
+			<fieldset>
+		
+			<legend>Vaše informacije<legend>
+	
+			<label for="name">Ime:</label>
+			<input type="text" name="name" required>
+			
+			<br>
+			
+			<label for="Prezime">Prezime:</label>
+			<input type="text" name="prezime" required>
+			
+			<br>
+
+			<label for="email">Email:</label>
+			<input type="email" name="email" required>
+
+			<br>
+
+			<label for="password">Lozinka:</label>
+			<input type="password" name="password" required>
+
+			<br>
+
+			<label for="poklon">Poklon pakovanje</label>
+			<select id="poklon" name="poklon">
+				<option value="da">DA</option>
+				<option value="ne">NE</option>
+			</select>
+			</fieldset>	
+		</form>
+
+
+		<form>
+			<fieldset>
+			<label>Molimo vas upisite vasu porudžbinu<label>
+			
+			<br>
+			
+			<textarea id="narudžbina" placeholder="Ovde upišite vašu porudžbinu..." rows="10" cols="30"></textarea>
+
+			<br>
+
+			<label for="date">Datum preuzimanja</label>
+			<br>
+			<input type="date" name="date" required>		
+			</fieldset>
+		</form>
+
+		<button onclick="alert('Vaša porudžbina je prosleđena!')">Poruči</button>
+</main>
+<footer>
+		<h4 style="font-family: 'Comic Sans MS', cursive;">Kontakt</h4>
+		<address  style=" font-family: 'Comic Sans MS', cursive;">
+		Pekara "Mamina pekara"<br>
+		Ulica Celjska 7<br>
+		17500 Vranje<br>
+		Telefon 017434017<br>
+		email: <a style=" color: black; font-family: 'Comic Sans MS', cursive;" href="mailto:arsickatarina123@gmail.com">arsickatarina123@gmail.com</a>
+		</address>
+		<br>
+		<p> Pon - Sub, 09:00:18:00</p>
+		<div>
+		<figure>
+			<img src="pink.jpeg" width="200">
+			<figcaption style="font-family: 'Comic Sans MS', cursive;">pekara</figcaption>
+		</figure>
+
+		<figure>
+			<figcaption style="font-family: 'Comic Sans MS', cursive;">Pronađite nas</figcaption>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2939.770977674535!2d21.8965118!3d42.538919500000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13551fa268c3af57%3A0xe029a82437ce3fd4!2zQ2VsanNrYSA3LCDQktGA0LDRmtC1LCDQodGA0LHQuNGY0LA!5e0!3m2!1ssr!2ssi!4v1773441496000!5m2!1ssr!2ssi" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</figure>
+	</div>
+
+</footer>	
+
+</body>
+</html>
